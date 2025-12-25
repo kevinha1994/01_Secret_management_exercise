@@ -5,6 +5,8 @@ on:
     workflows: ["CI — matrix builds + E2E (workflow A)"]
     types:
       - completed
+    branches:
+      - main
 
 jobs:
   post:
