@@ -1,7 +1,7 @@
 name: Use Composite Action
 
 on:
-  push:
+  #push:
   pull_request:
 
 jobs:

@@ -1,7 +1,7 @@
 name: JUnit Report Upload
 
 on:
-  push:
+  #push:
   pull_request:
 
 jobs:
