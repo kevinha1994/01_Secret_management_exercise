@@ -2,7 +2,7 @@ name: Post Process
 
 on:
   workflow_run:
-    workflows: ["CI matrix builds + E2E (workflow A)"]
+    workflows: ["orch_fanin_fanout.yml"]
     types:
       - completed
     branches:
