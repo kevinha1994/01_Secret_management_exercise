@@ -1,4 +1,4 @@
-name: CI — matrix builds + E2E (workflow A)
+name: CI matrix builds + E2E (workflow A)
 
 on:
   push:

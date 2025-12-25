@@ -2,7 +2,7 @@ name: Post Process
 
 on:
   workflow_run:
-    workflows: ["CI — matrix builds + E2E (workflow A)"]
+    workflows: ["CI matrix builds + E2E (workflow A)"]
     types:
       - completed
     branches:
